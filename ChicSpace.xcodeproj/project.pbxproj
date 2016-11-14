@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C17878A1DD912340099ACEA /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1787891DD912340099ACEA /* Property.swift */; };
+		6C2A5B1E1DCA367E00B922E8 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A5B1D1DCA367E00B922E8 /* ContactViewController.swift */; };
+		6C67D5131DD6DE08002C5D20 /* PropertysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67D5121DD6DE08002C5D20 /* PropertysTableViewController.swift */; };
 		6C78B7581DC3A883003EC50A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78B7571DC3A883003EC50A /* AppDelegate.swift */; };
 		6C78B75D1DC3A883003EC50A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C78B75B1DC3A883003EC50A /* Main.storyboard */; };
 		6C78B75F1DC3A883003EC50A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C78B75E1DC3A883003EC50A /* Assets.xcassets */; };
 		6C78B7621DC3A883003EC50A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C78B7601DC3A883003EC50A /* LaunchScreen.storyboard */; };
-		6C78B76A1DC43F22003EC50A /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78B7691DC43F22003EC50A /* ProductViewController.swift */; };
-		6C78B76C1DC5D425003EC50A /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78B76B1DC5D425003EC50A /* ContactViewController.swift */; };
+		6C78B76A1DC43F22003EC50A /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78B7691DC43F22003EC50A /* PropertyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C1787891DD912340099ACEA /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		6C2A5B1D1DCA367E00B922E8 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		6C67D5121DD6DE08002C5D20 /* PropertysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertysTableViewController.swift; sourceTree = "<group>"; };
 		6C78B7541DC3A883003EC50A /* ChicSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChicSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C78B7571DC3A883003EC50A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C78B75C1DC3A883003EC50A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C78B75E1DC3A883003EC50A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C78B7611DC3A883003EC50A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C78B7631DC3A883003EC50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C78B7691DC43F22003EC50A /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
-		6C78B76B1DC5D425003EC50A /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		6C78B7691DC43F22003EC50A /* PropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,10 @@
 				6C78B75E1DC3A883003EC50A /* Assets.xcassets */,
 				6C78B7601DC3A883003EC50A /* LaunchScreen.storyboard */,
 				6C78B7631DC3A883003EC50A /* Info.plist */,
-				6C78B7691DC43F22003EC50A /* ProductViewController.swift */,
-				6C78B76B1DC5D425003EC50A /* ContactViewController.swift */,
+				6C78B7691DC43F22003EC50A /* PropertyViewController.swift */,
+				6C2A5B1D1DCA367E00B922E8 /* ContactViewController.swift */,
+				6C67D5121DD6DE08002C5D20 /* PropertysTableViewController.swift */,
+				6C1787891DD912340099ACEA /* Property.swift */,
 			);
 			path = ChicSpace;
 			sourceTree = "<group>";
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C78B76A1DC43F22003EC50A /* ProductViewController.swift in Sources */,
+				6C17878A1DD912340099ACEA /* Property.swift in Sources */,
+				6C78B76A1DC43F22003EC50A /* PropertyViewController.swift in Sources */,
+				6C67D5131DD6DE08002C5D20 /* PropertysTableViewController.swift in Sources */,
 				6C78B7581DC3A883003EC50A /* AppDelegate.swift in Sources */,
-				6C78B76C1DC5D425003EC50A /* ContactViewController.swift in Sources */,
+				6C2A5B1E1DCA367E00B922E8 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +313,7 @@
 				6C78B7681DC3A883003EC50A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
